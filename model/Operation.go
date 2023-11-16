@@ -16,4 +16,8 @@ type Operation struct {
 	Details                   string    `json:"details"`
 	Status                    string    `json:"status"`
 	ReasonForRefusal          string    `json:"reason_for_refusal"`
+
+	Dispatched bool
+	Category   Category
+	Criteria   Criteria
 }
